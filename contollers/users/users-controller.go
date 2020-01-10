@@ -28,9 +28,7 @@ func CreateUser(c *gin.Context) {
 		//TODO return bad request to caller
 		return
 	}
-
 	result, saveErr := services.CreateUser(user)
-
 	if saveErr != nil {
 		//TODO--Handle create user error
 		return

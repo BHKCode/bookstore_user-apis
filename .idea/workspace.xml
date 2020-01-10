@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69db9bc4-35cd-4e52-acab-2fce4ac47ab0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="69db9bc4-35cd-4e52-acab-2fce4ac47ab0" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/domain/users/user_dao.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/users/user_dto.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contollers/users/users-controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/contollers/users/users-controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/users/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/user-service.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/user-service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/errors/rest-errors.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/errors/rest-errors.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,34 +129,46 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="526" y="96" key="#go_build_application.go/0.0.1600.860@0.0.1600.860" timestamp="1578571420765" />
-    <state x="375" y="29" key="CommitChangelistDialog2" timestamp="1578651104933">
+    <state x="375" y="29" key="CommitChangelistDialog2" timestamp="1578652061236">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="375" y="29" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578651104933" />
+    <state x="375" y="29" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578652061236" />
+    <state x="165" y="71" key="DiffContextDialog" timestamp="1578652043487">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="165" y="71" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1578652043487" />
     <state x="579" y="176" key="FileChooserDialogImpl" timestamp="1578651712479">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="579" y="176" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1578651712479" />
-    <state width="1030" height="221" key="GridCell.Tab.0.bottom" timestamp="1578651026890">
+    <state width="1026" height="221" key="GridCell.Tab.0.bottom" timestamp="1578660927627">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1030" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578651026890" />
-    <state width="1030" height="221" key="GridCell.Tab.0.center" timestamp="1578651026889">
+    <state width="1026" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578660927627" />
+    <state width="1026" height="221" key="GridCell.Tab.0.center" timestamp="1578660927627">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1030" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1578651026889" />
-    <state width="1030" height="221" key="GridCell.Tab.0.left" timestamp="1578651026889">
+    <state width="1026" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1578660927627" />
+    <state width="1026" height="221" key="GridCell.Tab.0.left" timestamp="1578660927627">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1030" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1578651026889" />
-    <state width="1030" height="221" key="GridCell.Tab.0.right" timestamp="1578651026890">
+    <state width="1026" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1578660927627" />
+    <state width="1026" height="221" key="GridCell.Tab.0.right" timestamp="1578660927627">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1030" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1578651026890" />
+    <state width="1026" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1578660927627" />
     <state x="392" y="167" key="Vcs.Push.Dialog.v2" timestamp="1578651588804">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578651588804" />
+    <state x="611" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578652004467">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="611" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1578652004467" />
+    <state x="513" y="147" key="git4idea.branch.GitSmartOperationDialog" timestamp="1578652168660">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="513" y="147" key="git4idea.branch.GitSmartOperationDialog/0.0.1600.860@0.0.1600.860" timestamp="1578652168660" />
     <state x="497" y="337" key="git4idea.ui.GitResetDialog" timestamp="1578651632075">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
