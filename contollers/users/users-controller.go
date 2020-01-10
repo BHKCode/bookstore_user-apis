@@ -1,8 +1,6 @@
 package users
 
 import (
-	//"encoding/json"
-	"fmt"
 	"github.com/bhawana/bookstore_user-apis/domain/users"
 	"github.com/bhawana/bookstore_user-apis/services"
 	"github.com/bhawana/bookstore_user-apis/utils/errors"
@@ -37,7 +35,7 @@ func CreateUser(c *gin.Context) {
 		//TODO--Handle create user error
 		return
 	}
-	fmt.Println(user)
+	//fmt.Println(user)
 	c.JSON(http.StatusCreated, result)
 }
 
