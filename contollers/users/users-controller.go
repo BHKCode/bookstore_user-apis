@@ -5,6 +5,8 @@ import (
 	"github.com/bhawana/bookstore_user-apis/services"
 	"github.com/bhawana/bookstore_user-apis/utils/errors"
 	"github.com/gin-gonic/gin"
+	"strconv"
+
 	//"io/ioutil"
 	"net/http"
 )
@@ -31,6 +33,8 @@ func CreateUser(c *gin.Context) {
 	result, saveErr := services.CreateUser(user)
 	if saveErr != nil {
 		//TODO--Handle create user error
+		c.JSON(saveErr.Status,saveErr)
+		//c.JSON(http, saveErr)
 		return
 	}
 	//fmt.Println(user)
@@ -38,5 +42,6 @@ func CreateUser(c *gin.Context) {
 }
 
 func GetUser(c *gin.Context) {
+	userId,userError := strconv.ParseInt(c.Param())
 	c.String(http.StatusNotImplemented, "Implement Me!")
 }

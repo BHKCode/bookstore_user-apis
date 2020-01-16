@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69db9bc4-35cd-4e52-acab-2fce4ac47ab0" name="Default Changelist" comment="" />
+    <list default="true" id="69db9bc4-35cd-4e52-acab-2fce4ac47ab0" name="Default Changelist" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contollers/users/users-controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/contollers/users/users-controller.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +38,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hp_archetype" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -43,7 +46,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Build.go build github.com/bhawana/bookstore_user-apis">
     <configuration name="go build application.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bookstore_user-apis" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -72,8 +75,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build github.com/bhawana/bookstore_user-apis" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build application.go" />
       </list>
     </recent_temporary>
@@ -98,7 +101,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -121,34 +126,54 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="526" y="96" key="#go_build_application.go/0.0.1600.860@0.0.1600.860" timestamp="1578571420765" />
-    <state x="375" y="29" key="CommitChangelistDialog2" timestamp="1578660989552">
+    <state x="375" y="29" key="CommitChangelistDialog2" timestamp="1578661165830">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="375" y="29" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578660989552" />
+    <state x="375" y="29" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578661165830" />
+    <state width="763" height="466" key="DebuggerActiveHint" timestamp="1578982424969">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="763" height="466" key="DebuggerActiveHint/0.0.1600.860@0.0.1600.860" timestamp="1578982424969" />
     <state x="165" y="71" key="DiffContextDialog" timestamp="1578652043487">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="165" y="71" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1578652043487" />
-    <state x="579" y="176" key="FileChooserDialogImpl" timestamp="1578651712479">
+    <state x="579" y="176" key="FileChooserDialogImpl" timestamp="1579175409983">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="579" y="176" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1578651712479" />
-    <state width="1026" height="221" key="GridCell.Tab.0.bottom" timestamp="1578660927627">
+    <state x="579" y="176" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1579175409983" />
+    <state width="778" height="276" key="GridCell.Tab.0.bottom" timestamp="1579007634634">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1026" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578660927627" />
-    <state width="1026" height="221" key="GridCell.Tab.0.center" timestamp="1578660927627">
+    <state width="778" height="276" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579007634634" />
+    <state width="778" height="276" key="GridCell.Tab.0.center" timestamp="1579007634634">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1026" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1578660927627" />
-    <state width="1026" height="221" key="GridCell.Tab.0.left" timestamp="1578660927627">
+    <state width="778" height="276" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579007634634" />
+    <state width="778" height="276" key="GridCell.Tab.0.left" timestamp="1579007634634">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1026" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1578660927627" />
-    <state width="1026" height="221" key="GridCell.Tab.0.right" timestamp="1578660927627">
+    <state width="778" height="276" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579007634634" />
+    <state width="778" height="276" key="GridCell.Tab.0.right" timestamp="1579007634634">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1026" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1578660927627" />
+    <state width="778" height="276" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579007634634" />
+    <state width="778" height="276" key="GridCell.Tab.1.bottom" timestamp="1579007634634">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579007634634" />
+    <state width="778" height="276" key="GridCell.Tab.1.center" timestamp="1579007634634">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1579007634634" />
+    <state width="778" height="276" key="GridCell.Tab.1.left" timestamp="1579007634634">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1579007634634" />
+    <state width="778" height="276" key="GridCell.Tab.1.right" timestamp="1579007634634">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1579007634634" />
     <state x="392" y="167" key="Vcs.Push.Dialog.v2" timestamp="1578651588804">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -173,6 +198,26 @@
           <url>file://$PROJECT_DIR$/main.go</url>
           <line>7</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/contollers/users/users-controller.go</url>
+          <line>14</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/services/user-service.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/contollers/users/users-controller.go</url>
+          <line>27</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/app/url_mapping.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
